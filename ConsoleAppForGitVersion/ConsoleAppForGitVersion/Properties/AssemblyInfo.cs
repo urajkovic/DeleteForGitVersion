@@ -35,4 +35,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("0.2.0.0")]
 [assembly: AssemblyFileVersion("0.2.0.0")]
 
-[assembly: AssemblyInformationalVersion("0.2.0+33.Branch.master.Sha.ce0c8a2379126f53a1e22850aacc03893871d7e4")]
+[assembly: AssemblyInformationalVersion("0.2.0+34.Branch.master.Sha.5a4ece6054ef1b291999c2bac83232226b898a36")]
