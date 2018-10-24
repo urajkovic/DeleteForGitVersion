@@ -1,5 +1,5 @@
 branches:
     master:
-        increment: Patch
+        increment: Minor
     develop:
         increment: Minor
