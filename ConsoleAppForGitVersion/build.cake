@@ -37,7 +37,7 @@ Task("Version")
 	Information($"Calculated semantic version {version.SemVer}");
 	
 	var pVersion = version.NuGetVersion;
-	Information($"Corresponding package version {packageVersion}");
+	Information($"Corresponding package version {pVersion}");
 
 	//if (!BuildSystem.IsLocalBuild)
 	{
