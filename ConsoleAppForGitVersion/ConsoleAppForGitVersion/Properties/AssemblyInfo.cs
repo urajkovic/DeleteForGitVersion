@@ -31,8 +31,8 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
-// [assembly: AssemblyVersion("3.5.5.0")]
-[assembly: AssemblyVersion("3.5.5.0")]
-[assembly: AssemblyFileVersion("3.5.5.0")]
+// [assembly: AssemblyVersion("3.6.6.0")]
+[assembly: AssemblyVersion("3.6.6.0")]
+[assembly: AssemblyFileVersion("3.6.6.0")]
 
-[assembly: AssemblyInformationalVersion("3.5.5-novo.1+0.Branch.novo-3.5.5.Sha.b395688256c78ca88041b07019f8b0c3b252d557")]
+[assembly: AssemblyInformationalVersion("3.6.6-beta.1+0.Branch.release/3.6.6.Sha.5c5a22b4101de0ee608158c4e150735f707c5897")]
