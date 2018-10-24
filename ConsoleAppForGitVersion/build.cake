@@ -34,10 +34,15 @@ Task("Version")
 	.Does(() =>
 {
 	var version = GitVersion();
-	Information($"Calculated semantic version {version.SemVer}");
+
+	var semVer = version.SemVer;
+	Information($"SemVer = {version.SemVer}");
 	
-	var pVersion = version.NuGetVersion;
-	Information($"Corresponding package version {pVersion}");
+	var nuGetVersion = version.NuGetVersion;
+	Information($"NuGetVersion = {nuGetVersion}");
+	
+	var informationalVersion = version.InformationalVersion;
+	Information($"Corresponding package version {informationalVersion}");
 
 	//if (!BuildSystem.IsLocalBuild)
 	{
