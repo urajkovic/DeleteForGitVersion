@@ -3,3 +3,4 @@ branches:
         increment: Minor
     develop:
         increment: Minor
+        tag: blah
