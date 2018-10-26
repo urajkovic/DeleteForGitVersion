@@ -42,7 +42,7 @@ Task("Version")
 	Information($"NuGetVersion = {nuGetVersion}");
 	
 	var informationalVersion = version.InformationalVersion;
-	Information($"Corresponding package version {informationalVersion}");
+	Information($"Corresponding package version {informationalVersion.Substring(0, 25)}");
 
 	//if (!BuildSystem.IsLocalBuild)
 	{
